@@ -1,0 +1,101 @@
+h2 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+h3:hover {
+  color: darkgoldenrod;
+  font-size: 25px;
+}
+p{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+section {
+  border: 2px solid black;
+  margin: 190px;
+  padding: 30px;
+  height: 200px;
+  width: 900px;
+  background-color: lightpink;
+}
+
+body {
+  background-color: #ffe8e5;
+
+}
+
+.logo {
+  width: 900px;
+  height: 250px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.black-glitter {
+  background-image: url('../images/blackglitter.jpg');
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+  }
+.white {
+  color: white;
+}
+ul {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+header{
+  display: flex;
+  justify-content: center;
+
+}
+img {
+  border: 1px solid black;
+  padding: 20px;
+  align-items: center;
+}
+
+aside {
+  height: 1000px;
+  width: 400px;
+  border-color: white;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space {
+  height: 400px;
+}
+
+.orange {
+  height: 300px;
+  width: 200px;
+}
+
+.yellow {
+  height: 200px;
+  width: 800px;
+}
+
+.spotify {
+  display: flex;
+  justify-content: center;
+  margin: 23px;
+}
+
+.contact {
+  height: 300px;
+}
